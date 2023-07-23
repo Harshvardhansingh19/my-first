@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 72px 2px 285px;
+}
+
+.navlist{
+    width: 50%;
+        margin-top: -59px;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li{
+    padding: 15px;
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+.heading{
+  display: flex;
+}
+
+}
+.hi :hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+    
+.background{
+  width: 100%;
+  height: 100%;
+  background-image:url(login.png);  
+  background-size:cover;
+  background-position: center;
+  
+}
+.han{
+  color:#ffffff;
+  cursor:pointer;
+  text-decoration: none;
+}  
+.han:hover{
+  text-decoration: none;
+  color: yellow;
+}
+.li{
+  cursor: pointer;
+  color: gold;
+}
+.li:hover{
+  text-decoration: none;
+  color: #f9f9e2;
+}
+.war{cursor: pointer;
+  color: gold;
+    text-decoration: none;}
+.war:hover{
+  text-decoration: none;
+  color: #f9f9e2;
+}

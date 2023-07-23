@@ -1,0 +1,64 @@
+*{
+    background: rgba(0, 0, 0, 7)url('contact2.png');
+    background-size: cover;
+    background-blend-mode:hard-light;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      width: 11%;
+    border-radius: 72px;
+}
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+
+}
+.navbar{
+    display: inline;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.navlist{
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.navlist li{
+    padding: 15px;
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+.heading{
+  display: flex;
+}
+.card1{
+  cursor:pointer;
+  margin: 1.5rem;
+  transition: 0.5sec;
+  border-radius: 2rem;
+  max-width:300px;
+  min-width:200px;
+  display: inline;
+  flex: column;
+}

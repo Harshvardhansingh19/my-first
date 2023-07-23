@@ -1,0 +1,58 @@
+.background{
+  width: 100%;
+  height: 100%;
+  background-image:url(login.png);  
+  background-size:cover;
+  background-position: center;
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    padding: 72px 2px 285px;
+}
+
+.navlist{
+    width: 50%;
+        margin-top: -59px;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li{
+    padding: 15px;
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+.heading{
+  display: flex;
+}
+.password{
+  color: orange;
+  cursor: pointer;
+}
+.password:hover{
+  color: yellow;
+}
+
